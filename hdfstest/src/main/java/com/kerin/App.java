@@ -1,15 +1,17 @@
 package com.kerin;
 
-
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.conf.Configuration;
+
 import org.apache.hadoop.fs.Path;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /**
  * Hello world!
@@ -20,7 +22,7 @@ public class App
     public static void main( String[] args )
     {
 
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello World!");
         try {
             Configuration conf = new Configuration();
 
@@ -51,6 +53,5 @@ public class App
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }

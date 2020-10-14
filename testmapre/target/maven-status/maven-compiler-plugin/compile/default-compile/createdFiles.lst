@@ -1,0 +1,7 @@
+com\kerin\LogParser.class
+com\kerin\WordCount$WordCountMapper.class
+com\kerin\Cleaner.class
+com\kerin\WordCount$WordCountReducer.class
+com\kerin\Cleaner$MyReducer.class
+com\kerin\WordCount.class
+com\kerin\Cleaner$MyMapper.class

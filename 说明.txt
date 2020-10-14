@@ -1,0 +1,7 @@
+1、idea新建maven项目
+2、书写pom.xml 和程序
+3、mvn package 打包
+4、 hadoop jar mapred-1.0-SNAPSHOT.jar com.kerin.WordCount /words /result1
+5、 hadoop fs -getmerge /result2 ./result.txt
+
+clear同理
